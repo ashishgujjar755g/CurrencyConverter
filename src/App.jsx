@@ -4,7 +4,7 @@ import useCurrencyInfo from './hooks/useCurrencyInfo'
 
 function App() {
   const [count, setCount] = useState(0)
-  const currencyInfo = useCurrencyInfo("inr")
+  const currencyInfo = useCurrencyInfo("usd")
 
   return (
     <>
